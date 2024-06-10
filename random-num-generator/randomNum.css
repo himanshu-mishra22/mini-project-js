@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#button1{
+    font-size: 3em;
+    padding: 2rem 3rem;
+    margin: 3rem;
+    border: 5px solid rgba(218, 96, 96, 0.801);
+    border-radius: 15px;
+    background: rgba(235, 47, 47, 0.644);
+    cursor: pointer;
+    
+}
+
+#button1:hover{
+    background: rgba(160, 32, 32, 0.644);
+}
+
+#myLable{
+    padding: 3rem;
+    margin: 3rem;
+    font-size: 5rem;
+}
