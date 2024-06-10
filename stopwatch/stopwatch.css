@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', sans-serif;
+    background-color: hsla(0, 0%, 90%, 0.849);
+}
+
+h1{
+    font-size: 3rem;
+    color: hsla(0, 0%, 25);
+    
+}
+
+.outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    border: 3px solid hsla(0, 2%, 11%, 0.60);
+    border-radius: 30px;
+    padding: 40px;
+    background: white;
+}
+
+#display{
+   font-size: 5em; 
+   font-weight: 500;
+   color: hsla(0, 2%, 24%, 0.849);
+   text-shadow: 2px 2px rgb(156, 154, 154);
+   padding-bottom: 30px;
+   align-items: center;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin:  5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background 0.25s;
+    color: white;
+}
+
+#stop{
+    background-color: rgba(247, 27, 27, 0.89);
+    border-radius: 10px;
+}
+#start{
+    background-color: rgba(28, 247, 8, 0.959);
+    border-radius: 10px;
+}
+#reset{
+    background-color: rgba(8, 175, 175, 0.952);
+    border-radius: 10px;
+}
+
+#stop:hover{
+    background-color: rgba(238, 11, 11, 0.897);
+    
+}
+#start:hover{
+    background-color: rgba(50, 196, 37, 0.89);
+    
+}
+#reset:hover{
+    background-color: rgba(9, 160, 160, 0.75);
+    
+    
+}
