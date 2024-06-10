@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#countLabel{
+    display: block;
+    padding: 2rem;
+    font-size: 10em;
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 2rem;
+    text-align: center;
+
+}
+
+#buttons{
+    text-align: center;
+}
+ .button{
+    padding: 2rem 3rem;
+    font-size: 1.5em;
+    background: rgba(18, 127, 170, 0.61);
+    color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background 0.5s;
+ }
+
+ .button:hover{
+    background: rgba(35, 104, 131, 0.61);
+ }
